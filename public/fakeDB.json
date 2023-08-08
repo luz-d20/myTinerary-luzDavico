@@ -1,0 +1,76 @@
+{
+    "cities": [ 
+        {
+            "id": 1,
+            "name": "New York",
+            "country": "USA",
+            "img": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Usa-world-trade-center-skyscrapers-reflection-night-skyline-cityscape.jpg"
+        },
+        {
+            "id": 2,
+            "name": "London",
+            "country": "UK",
+            "img": "https://upload.wikimedia.org/wikipedia/commons/2/28/London_-_Flickr_-_Pierre_Blach%C3%A9.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Paris",
+            "country": "France",
+            "img": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Paris_vue_d%27ensemble_tour_Eiffel.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Tokyo",
+            "country": "Japan",
+            "img": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Tokyo_Shibuya_Scramble_Crossing_2018-10-09.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Sydney",
+            "country": "Australia",
+            "img": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Sydney_Opera_House_-_Dec_2008.jpg"
+        },
+        {
+            "id": 6,
+            "name": "Rome",
+            "country": "Italy",
+            "img": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Rome_Skyline_%288012016319%29.jpg"
+        },
+        {
+            "id": 7,
+            "name": "Cairo",
+            "country": "Egypt",
+            "img": "https://upload.wikimedia.org/wikipedia/commons/6/64/Egypt%2C_Cairo%2C_Panorama_of_Medieval_Islamic_Cairo.jpg"
+        },
+        {
+            "id": 8,
+            "name": "Rio de Janeiro",
+            "country": "Brazil",
+            "img": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Rio_de_Janeiro%2C_Brazil_003_version_2.jpg"
+        },
+        {
+            "id": 9,
+            "name": "Cape Town",
+            "country": "South Africa",
+            "img": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Aerial_View_of_Sea_Point%2C_Cape_Town_South_Africa.jpg"
+        },
+        {
+            "id": 10,
+            "name": "Moscow",
+            "country": "Russia",
+            "img": "https://upload.wikimedia.org/wikipedia/commons/8/85/Saint_Basil%27s_Cathedral_and_the_Red_Square.jpg"
+        },
+        {
+            "id": 11,
+            "name": "Hong Kong",
+            "country": "China",
+            "img": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Hong_Kong_Harbour_Night_2019-06-11.jpg"
+        },
+        {
+            "id": 12,
+            "name": "Dubai",
+            "country": "UAE",
+            "img": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Dubai_Skylines_at_night_%28Pexels_3787839%29.jpg"
+        }
+    ]
+}
