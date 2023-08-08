@@ -183,8 +183,3 @@ h1, h2, h3, h4, h5, h6,
     column-gap: 10px;
   }
 }
-/*DELETE*/
-body {
-  min-height: 130vh;
-  background-color: pink;
-}
