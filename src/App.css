@@ -29,6 +29,7 @@ h1, h2, h3, h4, h5, h6,
   display: flex;
   flex-direction: column;
 }
+.text-s {font-size: clamp(0.625rem, 2vw, 0.75rem);} /*12px*/
 .text-m {font-size: clamp(0.9375rem, 2vw, 1.25rem);} /*20px*/
 .text-l {font-size: clamp(1.25rem, 2vw, 1.875rem);} /*30px*/
 .text-xl {font-size: clamp(2.81rem, 4vw, 4.375rem);} /*70px*/
@@ -71,7 +72,7 @@ h1, h2, h3, h4, h5, h6,
   border: solid 2px var(--primary-color);
 }
 .nav-list > *:last-child:hover {
-  border: solid 2px var(--secondary-color);
+  transform: scale(1.1);
 }
 
 .bg-transparent.colorChange {
@@ -99,10 +100,10 @@ h1, h2, h3, h4, h5, h6,
   border-radius: 20px 20px 20px 0;
   font-size: 1.3rem;
   text-decoration: none;
-  border: solid 2px var(--primary-color);
+  display:inline-block;
 }
 .hero a:hover {
-  border: solid 2px var(--secondary-color);
+  transform: scale(1.1);
 }
 
 
@@ -131,8 +132,13 @@ h1, h2, h3, h4, h5, h6,
 
 /* Slider */
 .sliderContainer {
-  margin: 30px auto;
+  margin: 60px auto;
+  text-align: center;
 }
+.sliderContainer h2 {
+  margin-bottom: 30px;
+}
+
 .gridParent {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -167,9 +173,44 @@ h1, h2, h3, h4, h5, h6,
   opacity: 0.9;
 }
 
+/* Footer */
+.footer {
+  background-color: var(--dark-text);
+  color: var(--white-text);
+  padding: 15px 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footer a {
+  color: var(--white-text);
+  text-decoration: none;
+}
+.footerNav {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+}
+.footerNav > *:hover {
+  color: var(--primary-color);
+}
+.socials svg {
+  fill: var(--white-text);
+}
+.socials svg:hover {
+  fill: var(--primary-color);
+}
+.socials a {height:fit-content; align-self: center;}
+.socials {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-content: center;
+}
 @media screen and (max-width: 768px) {
   .carouselCaption {
-    margin-top: 0px;
+    margin-top: -35px;
     font-size: 10px;
   }
   .carousel-control-prev {
@@ -179,7 +220,7 @@ h1, h2, h3, h4, h5, h6,
     right: 0px;
   }
   .gridParent {
-    row-gap: 50px;
+    row-gap: 30px;
     column-gap: 10px;
   }
 }

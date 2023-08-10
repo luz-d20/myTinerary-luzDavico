@@ -1,22 +1,23 @@
-import { useState } from 'react'
+import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import './App.css'
-import Hero from './components/Hero'
-import Navigation from './components/Navigation'
-import Slider from './components/Slider'
-import About from './components/About'
-import Footer from './components/Footer'
+import Main from './components/Main'
+import Cities from './components/Cities';
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Main />,
+  },
+  {
+    path: "/cities",
+    element: <Cities />,
+  }
+]);
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
-      <Navigation />
-      <Hero />
-      <Slider />
-      <About />
-      <Footer />
-    </>
+    <RouterProvider router={router} />
   )
 }
 
